@@ -10,7 +10,7 @@ import {
   CardFooter,
 } from "@/components/ui/card";
 import { FaInstagram } from "react-icons/fa";
-import { Check, Linkedin, PhoneCall, MessageCircle } from "lucide-react";
+import { Check, Linkedin, PhoneCall } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
 
 import { LightBulbIcon } from "./Icons";
