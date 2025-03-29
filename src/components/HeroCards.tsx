@@ -9,7 +9,10 @@ import {
   CardTitle,
   CardFooter,
 } from "@/components/ui/card";
-import { Check, Linkedin } from "lucide-react";
+import { FaInstagram } from "react-icons/fa";
+import { Check, Linkedin, PhoneCall, MessageCircle } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
+
 import { LightBulbIcon } from "./Icons";
 import { GitHubLogoIcon } from "@radix-ui/react-icons";
 
@@ -58,7 +61,7 @@ export const HeroCards = () => {
           <div>
             <a
               rel="noreferrer noopener"
-              href="https://github.com/leoMirandaa"
+              href="https://github.com/Goodybag37"
               target="_blank"
               className={buttonVariants({
                 variant: "ghost",
@@ -70,28 +73,45 @@ export const HeroCards = () => {
             </a>
             <a
               rel="noreferrer noopener"
-              href="https://twitter.com/leo_mirand4"
+              href="https://instagram.com/goodys_web"
               target="_blank"
               className={buttonVariants({
                 variant: "ghost",
                 size: "sm",
               })}
             >
-              <span className="sr-only">X icon</span>
-              <svg
-                role="img"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-                className="fill-foreground w-5 h-5"
-              >
-                <title>X</title>
-                <path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z" />
-              </svg>
+              <span className="sr-only">instagram icon</span>
+              <FaInstagram size={24} color="purple" />
+            </a>
+            <a
+              rel="noreferrer noopener"
+              href="https://wa.me/9052148610"
+              target="_blank"
+              className={buttonVariants({
+                variant: "ghost",
+                size: "sm",
+              })}
+            >
+              <span className="sr-only">instagram icon</span>
+              <PhoneCall size={24} color="green" />
             </a>
 
             <a
               rel="noreferrer noopener"
-              href="https://www.linkedin.com/in/leopoldo-miranda/"
+              href="tel:+2349052148610"
+              target="_blank"
+              className={buttonVariants({
+                variant: "ghost",
+                size: "sm",
+              })}
+            >
+              <span className="sr-only">instagram icon</span>
+              <FaWhatsapp size={24} color="green" />
+            </a>
+
+            <a
+              rel="noreferrer noopener"
+              href="https://www.linkedin.com/authwall?trk=gf&trkInfo=AQH8N_rAgeJCTgAAAZXgG9fgfmadXOQ3S3ZmsHW1RTXEimwm7BqCbvqSmxoQPDdDp0Mi8p46Wipm9xaipbJ9n4wcrQ-SjTdzpoD1MHWW53WbxwxAnPZz0PXG7xAZT6NEHtcSJz0=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fgoodness-ezeanyika-666840253%3Futm_source%3Dshare%26utm_campaign%3Dshare_via%26utm_content%3Dprofile%26utm_medium%3Dios_app"
               target="_blank"
               className={buttonVariants({
                 variant: "ghost",
@@ -109,30 +129,31 @@ export const HeroCards = () => {
       <Card className="absolute top-[150px] left-[50px] w-72  drop-shadow-xl shadow-black/10 dark:shadow-white/10">
         <CardHeader>
           <CardTitle className="flex item-center justify-between">
-            Free
+            Fee
             <Badge variant="secondary" className="text-sm text-primary">
               Most popular
             </Badge>
           </CardTitle>
           <div>
-            <span className="text-3xl font-bold">$0</span>
-            <span className="text-muted-foreground"> /month</span>
+            <span className="text-3xl font-bold">$5</span>
+            <span className="text-muted-foreground"> /hr</span>
           </div>
 
           <CardDescription>
-            Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.
+            We can charge you per hour based on your preference or you can opt
+            to pay after the project is completed
           </CardDescription>
         </CardHeader>
 
         <CardContent>
-          <Button className="w-full">Start Free Trial</Button>
+          <Button className="w-full">Book now</Button>
         </CardContent>
 
         <hr className="w-4/5 m-auto mb-4" />
 
         <CardFooter className="flex">
           <div className="space-y-4">
-            {["4 Team member", "4 GB Storage", "Upto 6 pages"].map(
+            {["4 Team member", "Full stack developer", "React and Node "].map(
               (benefit: string) => (
                 <span key={benefit} className="flex">
                   <Check className="text-green-500" />{" "}
@@ -153,8 +174,8 @@ export const HeroCards = () => {
           <div>
             <CardTitle>Light & dark mode</CardTitle>
             <CardDescription className="text-md mt-2">
-              Lorem ipsum dolor sit amet consect adipisicing elit. Consectetur
-              natusm.
+              you can click on the moon icon above to change to light and dark
+              session
             </CardDescription>
           </div>
         </CardHeader>
