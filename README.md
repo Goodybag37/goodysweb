@@ -1,4 +1,4 @@
-Build your React landing page effortlessly with the required sections to your project. <a href="/" target="_blank">Live Demo</a>
+Build your React landing page effortlessly with the required sections to your project. <a href="https://goodysweb.vercel.app/" target="_blank">Live Demo</a>
 
 ## Sections
 
@@ -31,13 +31,13 @@ Build your React landing page effortlessly with the required sections to your pr
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/Goodybag37/goodysweblandingpage
+git clone https://github.com/Goodybag37/goodysweb.com
 ```
 
 2. Go into project
 
 ```bash
-cd goodysweblandingpage
+cd goodysweb.com
 ```
 
 3. Install dependencies
