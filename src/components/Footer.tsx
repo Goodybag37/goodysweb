@@ -13,7 +13,7 @@ export const Footer = () => {
             className="font-bold text-xl flex"
           >
             <LogoIcon />
-            ShadcnUI/React
+            Goodys Web
           </a>
         </div>
 
@@ -22,7 +22,7 @@ export const Footer = () => {
           <div>
             <a
               rel="noreferrer noopener"
-              href="#"
+              href="https://github.com/Goodybag37"
               className="opacity-60 hover:opacity-100"
             >
               Github
@@ -32,20 +32,20 @@ export const Footer = () => {
           <div>
             <a
               rel="noreferrer noopener"
-              href="#"
+              href="https://instagram.com/goodys_web"
               className="opacity-60 hover:opacity-100"
             >
-              Twitter
+              instagram
             </a>
           </div>
 
           <div>
             <a
               rel="noreferrer noopener"
-              href="#"
+              href="https://wa.me/9052148610"
               className="opacity-60 hover:opacity-100"
             >
-              Dribbble
+              Whatsapp
             </a>
           </div>
         </div>
@@ -156,10 +156,10 @@ export const Footer = () => {
           <a
             rel="noreferrer noopener"
             target="_blank"
-            href="https://www.linkedin.com/in/leopoldo-miranda/"
+            href=""
             className="text-primary transition-all border-primary hover:border-b-2"
           >
-            Leo Miranda
+            Goodness Ezeanyika{" "}
           </a>
         </h3>
       </section>

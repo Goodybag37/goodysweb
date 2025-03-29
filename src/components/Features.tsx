@@ -26,7 +26,7 @@ const features: FeatureProps[] = [
   {
     title: "Intuitive user interface",
     description:
-      "Beautiful and consistent interphaces for proper branding and proffesional designs ",
+      "Beautiful and consistent interfaces for proper branding and proffesional designs ",
     image: image3,
   },
   {

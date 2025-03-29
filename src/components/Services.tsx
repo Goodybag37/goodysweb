@@ -12,19 +12,17 @@ const serviceList: ServiceProps[] = [
   {
     title: "Code Collaboration",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Open to collaboratiing with already existing code, projects or fellow developers ",
     icon: <ChartIcon />,
   },
   {
     title: "Project Management",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+    description: "Mange Projects from start to finish",
     icon: <WalletIcon />,
   },
   {
     title: "Task Automation",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+    description: "Automate Tasks for easier execution",
     icon: <MagnifierIcon />,
   },
 ];
@@ -42,8 +40,8 @@ export const Services = () => {
           </h2>
 
           <p className="text-muted-foreground text-xl mt-4 mb-8 ">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
-            dolor.
+            Goodys Web is aimed primarily to please our clients and we are
+            always flexible to any customer specific requirements such as ..
           </p>
 
           <div className="flex flex-col gap-8">
